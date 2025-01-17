@@ -1,0 +1,46 @@
+body {
+  font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: rgb(0, 17, 73);
+}
+
+.navbar-ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 0px;
+  font-size: 1.1rem;
+}
+
+.navbar-ul>li>a {
+  text-decoration: none;
+  color: black;
+  margin: 1.5rem;
+}
+
+.mainText{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.text{
+  width: 75%;
+  margin: 2rem auto;
+  width: 75%;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  transform: scale(0.75);
+}
+
+.pictureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.05rem;
+}
